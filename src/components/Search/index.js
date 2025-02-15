@@ -10,7 +10,7 @@ const SearchContainer = styled.section`
     color: #fff;
     text-align: center;
     padding: 30px 20px; 
-    min-height: 50vh; 
+    min-height: 5vh; 
     width: 100vw;
 `;
 
@@ -22,10 +22,10 @@ const Titulo = styled.h3`
 `;
 
 const SearchInput = styled(Input)`
-    width: 300px;
-    padding: 10px;
+    width: 500px;
+    padding: 20px;
     font-size: 16px;
-    border-radius: 8px;
+    border-radius: 25px;
     border: 1px solid #ccc;
     outline: none;
     transition: 0.3s;

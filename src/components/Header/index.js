@@ -1,5 +1,5 @@
 import Logo from '../Logo';
-import OptionsHeader from '../OptionsHeader';
+import OptionsHeader from './OptionsHeader';
 import styled from 'styled-components';
 
 const HeaderContainer = styled.header`
@@ -9,11 +9,11 @@ const HeaderContainer = styled.header`
     background-color: #fff;
 `;
 
-function Header() {
+function Header({ setFilterLevel }) {
     return (
         <HeaderContainer>
             <Logo />
-            <OptionsHeader />
+            <OptionsHeader setFilterLevel={setFilterLevel} />
         </HeaderContainer>
     );
 }
